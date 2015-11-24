@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/verde"
+    android:orientation="vertical"
+    tools:context="com.example.recuperacao.MainActivity" >
+
+    <TextView
+        android:id="@+id/nomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:textColor="@color/branco"
+        
+         />
+
+    <EditText
+        android:id="@+id/nomeEditText"
+        style="@style/EditTextStyle" >
+    
+    
+    </EditText>
+
+    <TextView
+        android:id="@+id/tituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textColor="@color/branco"
+         />
+
+    <EditText
+        android:id="@+id/tituloEditText"
+        style="@style/EditTextStyle" >
+    </EditText>
+    
+     <TextView
+        android:id="@+id/notaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nota"
+        android:textColor="@color/branco" />
+     
+     
+    <EditText
+        android:id="@+id/notaEditText"
+        style="@style/EditTextStyle" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/comentarioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cm"
+        android:textColor="@color/branco" />
+
+    <EditText
+        android:id="@+id/comentarioEditText"
+        style="@style/EditComent"
+        >
+    </EditText>
+    
+     <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Avaliar"
+        android:textColor="@color/branco"
+        android:onClick="InserirAvaliador"
+         />
+     
+     
+     <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Contar Avaliações"
+        android:textColor="@color/branco"
+        android:onClick="Notificacao"
+         />
+
+</LinearLayout>
